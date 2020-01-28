@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "859698383280",
+    "firebase_url": "https://pokemondb-ee97d.firebaseio.com",
+    "project_id": "pokemondb-ee97d",
+    "storage_bucket": "pokemondb-ee97d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859698383280:android:565488c945437db868ee75",
+        "android_client_info": {
+          "package_name": "org.izv.pgc.firebaserealtimedatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859698383280-u1c51rhh328v89ngjr1p2j55mv44cj8m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.izv.pgc.firebaserealtimedatabase",
+            "certificate_hash": "20e48e2f2c8598ea74844ce08e1eb7fb25a26d15"
+          }
+        },
+        {
+          "client_id": "859698383280-dkhht0djcu1o22u25j1ar9jomi886bs1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu92GYefv8U-y8owRqsy3dSYibwoCVsIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859698383280-dkhht0djcu1o22u25j1ar9jomi886bs1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

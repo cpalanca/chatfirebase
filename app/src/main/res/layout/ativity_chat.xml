@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/star1">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tvMessagaList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¡Oye! ¿Prueba a decir algo? \n Solo haz clic en el micrófono."
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="26sp" />
+    </ScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" >
+
+
+        <ImageView
+            android:id="@+id/btSend"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="277dp"
+            android:layout_marginLeft="277dp"
+            android:layout_marginBottom="0dp"
+            android:contentDescription="@string/mic_desc"
+            android:gravity="right|end"
+            android:paddingTop="2dp"
+            android:src="@drawable/btsend" />
+
+
+        <ImageView
+            android:id="@+id/mic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/mic_desc"
+            android:gravity="right|end"
+            android:paddingTop="2dp"
+            android:src="@drawable/mic2" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/message_input"
+            android:layout_width="271dp"
+            android:layout_height="49dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:paddingRight="5dp"
+            android:textColorHint="#FFFFFF">
+
+            <EditText
+                android:id="@+id/etText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/hint_et_message"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:textColor="#FFFFFF" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </RelativeLayout>
+</LinearLayout>

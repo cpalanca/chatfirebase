@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Chatbot FirebaseRealtimeDatabase</string>
+    <string name="action_settings">Settings</string>
+    <string name="btEnviar">Enviar</string>
+    <string name="hint_et_message">Escriba aqui</string>
+    <string name="mic_desc">Micro ico</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="register_here"><a href="https://www.ieszaidinvergeles.org/">Register Here.</a></string>
+    <string name="logo_brand">Logo</string>
+    <string name="btLogin">Login</string>
+    <string name="icoTwitter">Twitter</string>
+    <string name="icoInstagram">Instagram</string>
+    <string name="icoFacebook">Facebook</string>
+    <string name="title_activity_home">Home</string>
+</resources>
